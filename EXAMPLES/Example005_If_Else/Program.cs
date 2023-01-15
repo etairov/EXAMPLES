@@ -7,6 +7,6 @@ Console.WriteLine("УРА!!! Это же Женя!!!");
 }
 else
 {
-Console.WriteLine("Привет, ");
+Console.WriteLine("Привет,  ");
 Console.WriteLine(username);
 }
