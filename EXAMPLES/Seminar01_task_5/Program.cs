@@ -19,3 +19,12 @@ if (n >= 1000)
 {
     Console.WriteLine("Введено число больше трехзначного");
 }
+//----------------------------------------------
+//Короткое решение:
+
+//Console.WriteLine("Введите число");
+//string number = Console.ReadLine();
+//int num = Convert.ToInt32(number);
+//int c=num%10;
+
+//Console.Write(c );
