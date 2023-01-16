@@ -13,7 +13,7 @@ Console.WriteLine(number);
 Console.Write("Квадрат числа = ");
 Console.WriteLine(sqrt);
 
-Вариант со вводом числа с консоли.
+//Вариант со вводом числа с консоли.
 //Console.Write("Введите число");
 //string numberStr = Console.ReadLine(); //Консоль всегда воспринимает только строчные данные.
 //int number = Convert.ToInt32(numberStr); //Конвертация в тип данных int.
