@@ -19,7 +19,6 @@
 //Решение через цикл for
 
 int n = new Random().Next(1,10);
-//int count = -n;
 
 for(int count = -n; count < n+1; count++) 
 {
