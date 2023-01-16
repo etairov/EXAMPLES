@@ -16,7 +16,9 @@ Console.WriteLine(sqrt);
 //Вариант со вводом числа с консоли.
 //Console.Write("Введите число");
 //string numberStr = Console.ReadLine(); //Консоль всегда воспринимает только строчные данные.
+
 //int number = Convert.ToInt32(numberStr); //Конвертация в тип данных int.
+//double number = Convert.ToDouble(numberStr); //Конвертация в тип данных double.
 
 //int result = number * number;
 
