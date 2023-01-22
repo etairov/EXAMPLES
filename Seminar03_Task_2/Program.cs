@@ -87,7 +87,7 @@ int GetQuarterNumber(string message)
     while (true)
     {
         Console.WriteLine(message);
-        if (int.TryParse(Console.ReadLine(), out resul) && result > 0 && result < 5)
+        if (int.TryParse(Console.ReadLine(), out result) && result > 0 && result < 5)
         {
             if (result != 0)
             {
@@ -106,7 +106,7 @@ int GetQuarterNumber(string message)
         return result;
     }
 
-    int quater = new Random().Next(1, 5);
+    int quater = GetQuarterNumber("Введите ваше число: ");
 
     if (quater == 1)
     {
