@@ -57,6 +57,43 @@ string Method4(int count, string c) // задача метода в пример
 string res = Method4(10, " te");
 Console.WriteLine(res);
 
+
+//Метод 4.1 с циклом FOR
+//------------------------------------------------------
+string Method41(int count, string c)
+{
+    string result = String.Empty;
+
+    for (int i = 0; i < count; i++)
+    {
+        result = result + c;
+    }
+    return result;
+}
+string rex = Method41(5, " good");
+Console.WriteLine(rex);
+
+
+//Задача на цикл в цикле. Вывод таблицы умножения.
+//------------------------------------------------------------------------------
+
+int Method5(int count)
+{
+    int result = 0;
+
+    for (int i = 2; i < 10; i++)
+    {
+        for (int j = 2; j < 10; j++)
+        {
+           result =  i * j;
+           Console.WriteLine($"{i} x {j} = {result}"); 
+        }
+        Console.WriteLine();
+    }
+    return result;
+}
+int red = Method5(1);
+
 // Другие виды методов существуют, но обычно они сводятся к представленным здесь.
 
 
