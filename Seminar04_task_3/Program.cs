@@ -27,7 +27,7 @@ int product = GetProduct(number);
 Console.WriteLine($"Произведение чисел от 1 до {number} = {product}");
 
 //--------------------------------------------------------------------
-// Решение группы
+// Решение группы /
 
 int GetNumber(string message)
 {
